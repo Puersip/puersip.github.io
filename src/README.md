@@ -8,4 +8,5 @@ heroText: Hello Blog
 heroFullScreen: true
 tagline: 天行健，君子以自强不息
 footer: ''
+bgImage: /assets/images/bg1.jpeg
 ---
