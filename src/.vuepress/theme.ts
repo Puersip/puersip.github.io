@@ -57,6 +57,7 @@ export default hopeTheme({
       align: true,
       attrs: true,
       card: true,
+      container: true,
       chart: true,
       codetabs: true,
       demo: true,
