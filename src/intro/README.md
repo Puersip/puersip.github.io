@@ -16,7 +16,7 @@ timeline: false
 ::: tip 我的爱好
 :::
 
-- 喜欢lumi
+- <HopeIcon icon="heart" />**lumi**
 - 菜鸡
 - 躺平
 
