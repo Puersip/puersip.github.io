@@ -35,7 +35,7 @@ export default hopeTheme({
     avatar: "/avatar.jpg",
     roundAvatar: true,
     description: "一条咸鱼",
-    intro: "/intro.html",
+    intro: "/intro/",
   },
 
   encrypt: {
