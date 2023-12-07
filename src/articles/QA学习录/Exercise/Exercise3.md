@@ -3,7 +3,7 @@ title: Exercise3
 shortTitle: QA学习录
 description: Exercise
 category: QA
-tag: 学习
+tag: Exercise
 sidebar: true
 toc: true
 breadcrumb: false
@@ -31,7 +31,7 @@ c.每月不能超过200封
 
 ```
 分析: 题目中有两个条件，一个是是否满足退休条件，另一个是工资收入是否超过9000美元。
-根据题目，条件桩有4个，分别是:
+根据题目，条件桩有3个，分别是:
 c1. 年龄大于等于63岁
 c2. 年龄满足“80退休规则”
 c3. 工资超过9000美元

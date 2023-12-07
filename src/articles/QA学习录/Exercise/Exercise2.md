@@ -3,7 +3,7 @@ title: Exercise2
 shortTitle: QA学习录
 description: Exercise
 category: QA
-tag: 学习
+tag: Exercise
 sidebar: true
 toc: true
 breadcrumb: false
