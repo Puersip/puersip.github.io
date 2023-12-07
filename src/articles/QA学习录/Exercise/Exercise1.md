@@ -10,7 +10,6 @@ breadcrumb: false
 editLink: false
 ---
 
-## Exercise1 
 
 1. 请说明边界值测试、健壮性测试、最坏情况测试和健壮最坏情况测试的区别。
 
@@ -33,4 +32,4 @@ a.边界点
 b.NextDate函数的测试点
 c.哪些case是最坏情况，特殊值，健壮性case
 
-![Alt](Exercise1/NextDate.png)
+![](Exercise1/NextDate.png)
