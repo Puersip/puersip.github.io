@@ -19,19 +19,33 @@ editLink: false
 2. 课本P76 6.9习题第5题
 
 ```flow:preset
-st=>start: Start|past:>http://www.google.com[blank]
-e=>end: End|future:>http://www.google.com
-op1=>operation: My Operation|past
-op2=>operation: Stuff|current
-sub1=>subroutine: My Subroutine|invalid
-cond=>condition: Yes
-or No?|approved:>http://www.google.com
-c2=>condition: Good idea|rejected
-io=>inputoutput: catch something...|future
+st=>start: 开始
+e=>end: 结束
+op1=>operation: 春季夏时令转换
+op2=>operation: 秋季夏时令转转
+op3=>operation: 通话时间横跨时令变化
+op4=>operation: 通话时长x超过20分钟
+cond=>condition: Yes or No?
+io1=>operation: 通话时间=结束-开始-1
+io2=>operation: 通话时间=结束-开始+1
+res1=>operation: 通话费用=1+(x-20)*0.1
+res2=>operation: 通话费用=0.05*x
 
-st->op1(right)->cond
-cond(yes, right)->c2
-cond(no)->sub1(left)->op1
-c2(yes)->io->e
-c2(no)->op2->e
+
+st->op1->cond
+cond(yes, left)->op3
+cond(no, right)->op2
+op3->cond
+cond(yes, left)->io1->op4
+cond(no, right)->op4
+op4->cond
+cond(yes, left)->res1
+cond(no, right)->res2
+op2->cond 
+cond(yes, right)->op3
+cond(no, buttom)->op4 
+op3->cond
+cond(yes, right)->io2->op4
+cond(no, buttom)->op4
+
 ```
