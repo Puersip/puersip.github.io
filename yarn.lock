@@ -1543,6 +1543,11 @@
   resolved "https://registry.npmmirror.com/@types/raphael/-/raphael-2.3.5.tgz#0d5e61d488ed65f6e91a02539f3138aa1ee7e856"
   integrity sha512-JROUjEWzHMlPLWTvkUr6QJRAE9fxq1DrRyIUTOPyrLbYNwrAdPMS3mFc8Kk3Gq8HH7y6nFGMkMPW/NVA/zhJ1Q==
 
+"@types/raphael@^2.3.9":
+  version "2.3.9"
+  resolved "https://registry.npmmirror.com/@types/raphael/-/raphael-2.3.9.tgz#d53bb8930431524f42987a8a19815c0d42a61eb5"
+  integrity sha512-K1dZwoLNvEN+mvleFU/t2swG9Z4SE5Vub7dA5wDYojH0bVTQ8ZAP+lNsl91t1njdu/B+roSEL4QXC67I7Hpiag==
+
 "@types/resolve@1.17.1":
   version "1.17.1"
   resolved "https://registry.npmmirror.com/@types/resolve/-/resolve-1.17.1.tgz#3afd6ad8967c77e4376c598a82ddd58f46ec45d6"
@@ -3199,6 +3204,15 @@ flowchart.ts@^1.0.0:
     "@types/raphael" "^2.3.3"
     raphael "^2.3.0"
     tslib "^2.5.2"
+
+flowchart.ts@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/flowchart.ts/-/flowchart.ts-2.0.0.tgz#cd3279b976f6b392043f72ac50c78dcf42ea3307"
+  integrity sha512-Lhr1es+/p6K4RXQ1q5ZaJoPJWHNOnZ7/5aVX7albVPYi/QsLRLsi5d4NNuJNlBUG5njPCJshpVI+OJZzpB+Wow==
+  dependencies:
+    "@types/raphael" "^2.3.9"
+    raphael "^2.3.0"
+    tslib "^2.6.2"
 
 for-each@^0.3.3:
   version "0.3.3"
@@ -5190,7 +5204,7 @@ tslib@2.3.0:
   resolved "https://registry.npmmirror.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
   integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
-tslib@^2.5.2:
+tslib@^2.5.2, tslib@^2.6.2:
   version "2.6.2"
   resolved "https://registry.npmmirror.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
